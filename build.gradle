@@ -31,4 +31,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    // https://mvnrepository.com/artifact/net.sourceforge.nekohtml/nekohtml
+    compile group: 'net.sourceforge.nekohtml', name: 'nekohtml', version: '1.9.22'
+
 }
